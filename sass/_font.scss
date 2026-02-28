@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'GTWalsheim';
+  src: url('../fonts/GTWalsheim.woff2') format("woff2"), url('GTWalsheim.woff') format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GTWalsheim';
+  src: url('../fonts/GTWalsheim-Bold.woff2') format("woff2"), url('GTWalsheim-Bold.woff') format("woff");
+  font-weight: bold; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GTWalsheim';
+  src: url('../fonts/GTWalsheim-Light.woff2') format("woff2"), url('GTWalsheim-Light.woff') format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GTWalsheim';
+  src: url('../fonts/GTWalsheim-Medium.woff2') format("woff2"), url('GTWalsheim-Medium.woff') format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}
+@mixin box-shadow($bshadow) {
+	box-shadow: $bshadow;
+	-webkit-box-shadow: $bshadow;
+	-moz-box-shadow: $bshadow;
+}
